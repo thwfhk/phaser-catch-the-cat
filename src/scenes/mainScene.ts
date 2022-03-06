@@ -225,7 +225,7 @@ export default class MainScene extends Phaser.Scene {
             wall: []
         };
         this.state = GameState.PLAYING;
-        this.setStatusText(_("点击小圆点，围住小猫"));
+        this.setStatusText(_("圈小猫（无初始点版本）"));
     }
 
     undo() {
