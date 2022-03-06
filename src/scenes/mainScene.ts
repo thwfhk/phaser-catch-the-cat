@@ -330,7 +330,8 @@ export default class MainScene extends Phaser.Scene {
     }
 
     private randomWall() {
-        for (let k = 0; k < 8; k++) {
+        // no initial wall
+        for (let k = 0; k < 0; k++) {
             let i = Math.floor(this.w * Math.random());
             let j = Math.floor(this.h * Math.random());
             if (i !== this.cat.i || j !== this.cat.j) {
